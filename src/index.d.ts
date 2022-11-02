@@ -89,6 +89,7 @@ export interface MarkdownProps {
   mergeStyle?: boolean;
   debugPrintTree?: boolean;
   onLinkPress?: (url: string) => boolean;
+  children?: ReactNode;
 }
 
 type MarkdownStatic = ComponentType<MarkdownProps>;
